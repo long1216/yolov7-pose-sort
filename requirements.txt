@@ -1,0 +1,27 @@
+# pip install -r requirements.txt
+# CUDA 11.6 cudnn-8.5.0.96 TensorRt-8.5.1.7
+
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow
+PyYAML>=5.3.1
+scipy>=1.4.1
+torch>=1.11.0+cu113
+torchvision>=0.12.0+cu113
+tqdm>=4.41.0
+
+tensorboard>=2.4.1
+
+seaborn>=0.11.0
+pandas
+
+# onnx related
+onnx>=1.13.1
+onnx-simplifier>=0.4.17
+onnxruntime-gpu==1.14.1
+
+# extras --------------------------------------
+thop  # FLOPS computation
+pycocotools>=2.0  # COCO mAP
+

@@ -1,0 +1,1 @@
+python3 detect_multi_backend.py --weights yolov7-w6-pose-960-FP16.trt --device 0 --img-size 960 --kpt-label --view-img --source 
